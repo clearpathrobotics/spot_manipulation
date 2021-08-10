@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: spot_description
+    relative_path: urdf/spot.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/spot.srdf
+  CONFIG:
+    author_name: Chris Iverach-Brereton
+    author_email: civerachb@clearpathrobotics.com
+    generated_timestamp: 1628617642

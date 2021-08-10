@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>spot_manipulation</name>
+  <version>0.5.3</version>
+  <description>Meta-package for installing all Spot manipulator support</description>
+
+  <maintainer email="civerachb@clearpathrobotics.com">Chris Iverach-Brereton</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>spot_description</exec_depend>
+
+  <exec_depend>spot_gen3_lite_moveit_config</exec_depend>
+  <exec_depend>spot_kinova_bringup</exec_depend>
+  <exec_depend>spot_kinova_description</exec_depend>
+
+  <exec_depend>kortex_description</exec_depend>
+  <exec_depend>kortex_driver</exec_depend>
+
+  <export>
+  </export>
+</package>
